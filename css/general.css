@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	
+	background-color: #fff;
+	font: normal 100%/1.4 Helvetica,sans-serif;
+	
+}
+body, figure {
+   margin: 0 0;	
+	
+}
+
+.name {
+	width: 100%;
+	
+}
+.icons {
+	
+	width: 30%;
+	margin: 3% 0 0 5%;
+}
+
+
+
+figure img {
+	
+	float: right;
+	width: 150%;
+	border-bottom: 4px solid #F0F;
+	margin-bottom: 5%;
+	
+	
+	
+		
+}
+p {
+	margin: 0 5% 10% 5%;
+	width: 90%;
+	font-size: 0.9rem;
+}
+.text {
+	text-transform:uppercase;
+	color: #F0F;
+}
+
+@media only screen and (min-width: 27em) {
+	.coffeecup {
+		width: 100%;
+}
+
+.name {
+	width: 80%;
+	float: right;
+	margin-top: 6%;
+	
+}
+.icons {
+	float: left;
+	width: 15%;
+	margin: 3% 0 0 3%;
+}
+p {
+	clear: both;
+}
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+
+
+.coffeecup {
+	width: 100%;
+	border-bottom: none;
+	
+	float: none;
+	margin-top: 3%;
+	
+		
+}
+p {
+	margin: -69% 3% 10% 3%;
+	width: 65%;
+	font-size: 1rem;
+	color: white;
+	
+	
+}
+.text {
+	text-transform:uppercase;
+	color: #F0F;
+}
+}
+
+
+@media only screen and (min-width: 57em) {
+	
+	
+	
+	.icons {
+	
+	width: 10%;
+    position: absolute;
+	
+	
+}
+
+
+	
+	
+	figure {
+		width: 50%;
+		float: left;
+		margin-top: -15%;
+	}
+	figure img {
+		margin-bottom: 0;
+		
+	}
+	.coffeecup {
+	width: 190%;
+	float: right;
+	border-bottom: none;
+	
+		
+}
+	p {
+	margin: 9% 0 0 0;
+	width: 46%;
+	clear: none;
+	float: right;
+	font-size: 1.3rem;
+	color: black;
+	
+	padding: 1% 1%;
+}
+	.name {
+	 
+	 width: 70%;
+	
+}
+}
+
+@media only screen and (min-width: 57em) {
+	p {
+	margin: 15% 0 0 0;
+
+}
+}
+
+
