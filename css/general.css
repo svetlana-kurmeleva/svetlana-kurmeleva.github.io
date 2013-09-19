@@ -7,156 +7,392 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	
-	background-color: #fff;
+	background: url(../images/coffeecup.jpg) no-repeat fixed;
+	background-size: cover;
+	background-position: right;
+	border-left: 10px solid rgba(177,123,237,.5);;
+	border-right: 10px solid rgba(177,123,237,.5);;
+	height: 110%;
 	font: normal 100%/1.4 Helvetica,sans-serif;
 	
-}
-body, figure {
-   margin: 0 0;	
 	
 }
-
-.name {
-	width: 100%;
+body, h1, figure {
+   margin: 0 0;
+  
+}
+body, h1 {
+   padding: 0 0;
+   
+  
+}
+.background {
+	background: rgba(255,255,255,.6);
+	padding-bottom: 500px; 
+}
 	
-}
-.icons {
-	
-	width: 30%;
-	margin: 3% 0 0 5%;
-}
 
+h1 {
 
-
-figure img {
-	
-	float: right;
-	width: 150%;
-	border-bottom: 4px solid #F0F;
-	margin-bottom: 5%;
-	
-	
-	
-		
-}
-p {
-	margin: 0 5% 10% 5%;
-	width: 90%;
-	font-size: 0.9rem;
-}
-.text {
-	text-transform:uppercase;
-	color: #F0F;
-}
-
-@media only screen and (min-width: 27em) {
-	.coffeecup {
-		width: 100%;
-}
-
-.name {
-	width: 80%;
-	float: right;
-	margin-top: 6%;
-	
-}
-.icons {
-	float: left;
-	width: 15%;
-	margin: 3% 0 0 3%;
-}
-p {
-	clear: both;
-}
-
-
-
-}
-
-@media only screen and (min-width: 38em) {
-
-
-
-
-
-.coffeecup {
-	width: 100%;
-	border-bottom: none;
-	
-	float: none;
-	margin-top: 3%;
-	
-		
-}
-p {
-	margin: -69% 3% 10% 3%;
-	width: 65%;
-	font-size: 1rem;
+	padding: 20px 0 0 0;
+	background: rgba(177,123,237,.5);
+    font-family: 'Existence';
+	font-size: 3em; 
 	color: white;
+	text-align: center;
+	font-weight: normal;
+	line-height: 1.1;
+	
+}
+
+.text1 {
+	
+	display: block;
+	font-size: 0.9em;
+    background: rgba(255,255,255,.3);
+	color: black;
+	padding: 0 10px 45px 10px;
 	
 	
 }
 .text {
-	text-transform:uppercase;
-	color: #F0F;
-}
-}
-
-
-@media only screen and (min-width: 57em) {
-	
-	
-	
-	.icons {
-	
-	width: 10%;
-    position: absolute;
-	
-	
+	 display: block;
+     font-family:'Existence';
+     font-size: 2em;
+     line-height: 1em;
+	 background: rgba(255,255,255,.3);
+	 margin-top: 70%;
+	 color: black;
+	 padding: 30px 10px 0 10px;
 }
 
 
-	
-	
-	figure {
-		width: 50%;
-		float: left;
-		margin-top: -15%;
-	}
-	figure img {
-		margin-bottom: 0;
-		
-	}
-	.coffeecup {
-	width: 190%;
-	float: right;
-	border-bottom: none;
-	
-		
+
+#nav ul {
+   margin: 0 0 0 0;
+   padding-left: 0;
+   list-style-type:none;
+   text-align: center;
+   font-family:'Existence';
+   font-size: 1.2em;
+   background: rgba(177,123,237,.5);
+   text-transform: uppercase;
+ 
 }
-	p {
-	margin: 9% 0 0 0;
-	width: 46%;
-	clear: none;
-	float: right;
-	font-size: 1.3rem;
-	color: black;
+
+
+#nav ul li {
+	display: block;
 	
-	padding: 1% 1%;
+	
+	
 }
-	.name {
+
+
+#nav ul li a {
+	display: block;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	width: 100%;
+	
+}
+
+
+
+#nav ul li a:hover {
+    color: #000;
+	background-color:#C6F;
+	margin-left: -10px;
+	
+	
+	
+}
+
+nav a.current{
+	
+	cursor: default;
+	
+}
+
+.background {
+	overflow: hidden;
+	padding: 30px 10px;	
+}
+
+.images {
+	
+	
+	width: 100%;
+	overflow: hidden;
+	
+}
+ 
+
+ 
+ img {
+   width: 100%;
+   display: block;
+   
+   
+   
+}
+figcaption {
+	background: white;
+   font-size: .9em;
+   margin-bottom: 30px;
+   padding: 7px 5px;
+}
+	
+
+
+@media only screen and (min-width: 20em) {
+ .text {
+	 margin-top: 50%;
+}
+}
+@media only screen and (min-width: 20em) {
+ .text {
+	 font-size: 2.5em;
+}
+.text1 {
+	 font-size: 1.1em;
+}
+}
+@media only screen and (min-width: 39em) {
+
+/*.text1 {
+	
+	display: inline-block;
+	width: 30%;
+}
+.text {
+	 display: inline-block;
+     font-family:'Existence';
+     font-size: 4em;
+     margin: 0 0 0 10%;
+     line-height: .8;
+     width: 20%;
+}*/
+
+
+#nav ul {
+   margin: 0 0 0 -20px;
+   padding-left: 0;
+   list-style-type:none;
+   text-align: center;
+   font-family:'Existence';
+   font-size: 1.1em;
+   float:left;
+   text-transform: uppercase;
+   background-color: transparent;
+  
+}
+
+
+#nav ul li {
+	display: inline-block;
+	
+	
+}
+
+
+#nav ul li a {
+	display: inline-block;
+	color: white;
+	padding: 90px 10px 10px 10px;
+	text-decoration: none;
+	width: 100px;
+	
+}
+
+
+
+#nav ul li a:hover {
+    color: #000;
+	background-color:#C6F;
+
+}
+
+nav a.current{
+	
+	cursor: default;
+	
+}
+
+h1 {
+	text-align: right;
+
+}
+.background {
+	width: 100%;
+	overflow: hidden;
+}
+
+.images {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+
+
+figure {
+	display: inline-block;
+	width: 100%;
+	
+	
+	
+}
+}
+	
+	
+@media only screen and (min-width: 50em) {	
+
+h1 {
+
+	padding: 20px 15px 0 0;
+	background: rgba(177,123,237,.5);
+    font-family: 'Existence';
+	font-size: 3em; 
+	color: white;
+	line-height: 1.4;
+	
+}
+
+
+.text1 {
+	
+	display: inline-block;
+	width: 55%;
+	background: none;
+	padding-left: 0;
+	
+}
+.text {
+	 display: inline-block;
+     font-family:'Existence';
+     font-size: 3em;
+     margin: 0 4% 0 3%;
+     line-height: .8;
+     width: 20%;
+	 background: none;
+	 padding-right: 0;
 	 
-	 width: 70%;
+}
+
+
+
+#nav ul {
+   margin: 0 0 0 0;
+   padding-left: 0;
+   list-style-type:none;
+   text-align: center;
+   font-family:'Existence';
+   font-size: 1.2em;
+   float:left;
+   text-transform: uppercase;
+  
+}
+
+
+#nav ul li {
+	display: inline-block;
+	
 	
 }
+
+
+#nav ul li a {
+	display: inline-block;
+	color: white;
+	padding: 50px 10px 10px 10px;
+	text-decoration: none;
+	width: 100px;
+	
 }
 
-@media only screen and (min-width: 57em) {
-	p {
-	margin: 15% 0 0 0;
 
+
+#nav ul li a:hover {
+    color: #000;
+	background-color:#C6F;
+
+}
+
+nav a.current{
+	
+	cursor: default;
+	
+}
+.background {
+	width: 100%;
+	overflow: hidden;
+	height: 700px;
+}
+
+
+}
+@media only screen and (min-width: 59em) {
+.text{
+	margin-right: 1%;
+	
+}
+.images {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+
+
+figure {
+	display: block;
+	
+
+}
+img {
+	width: 31%;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	
+	
+}
+figcaption {
+	display: none;
 }
 }
 
 
+	
+	
+
+@media only screen and (min-width: 69em) {
+	.text1 {
+	
+	display: inline-block;
+	width: 45%;
+}
+.text {
+	 display: inline-block;
+     font-family:'Existence';
+     font-size: 4em;
+     margin: 0 3% 0 8%;
+     line-height: .8;
+     }
+
+
+	
+}
+@media only screen and (min-width: 72em) {
+	.text {
+	margin-right: 2%;
+	}}
+@media only screen and (min-width: 75em) {
+	.text {
+	margin-right: 0.5%;
+	margin-left: 9%;
+	}}
+	
+	
